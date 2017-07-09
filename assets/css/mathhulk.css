@@ -115,6 +115,18 @@ a:visited {
 a.callToAction:hover span {
     background-color: #2C9BE2
 }
+.sidebar .callToAction {
+    display: block;
+    text-align: center;
+    height: auto;
+    line-height: normal;
+    margin: 15px 0;
+}
+.sidebar small.minorText {
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+}
 .jumbotron {
     background-color: #62bef7
 }
