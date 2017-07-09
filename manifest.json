@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "SpigotMC: Mathhulk Edition",
+  "version": "2.1",
+  "description": "The mathhulk theme for SpigotMC made by AL_1!",
+  "web_accessible_resources": [
+    "*.png",
+    "mathhulk.css",
+    "sponsors.html"
+  ],
+   "icons":
+   {
+      "128": "mathhulk.png",
+      "16": "mathhulk.png",
+      "48": "mathhulk.png"
+   },
+   "browser_action": {
+     "default_icon": "mathhulk.png"
+   },
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "mathhulk.js"
+    ],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "run_at": "document_end",
+	"js": ["mathhulk.js"],
+	"css": ["mathhulk.css"],
+    "matches": ["https://www.spigotmc.org/*"]
+  }]
+ 
+}
