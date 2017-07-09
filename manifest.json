@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
  
-  "name": "SpigotMC: Mathhulk Edition",
-  "version": "2.2-dev",
+  "name": "SpigotMC: Mathhulk Edition (Dev)",
+  "version": "2.2",
   "description": "The mathhulk theme for SpigotMC made by AL_1!",
   "web_accessible_resources": [
     "assets/img/*.png",
