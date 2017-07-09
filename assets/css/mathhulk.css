@@ -1,0 +1,163 @@
+.messageUserBlock,
+.sectionMain {
+    border: 1px solid #d7edfc
+}
+body {
+    background-color: #F0F0F0
+}
+#logo img {}#logoBlock .spigot_colorOverlay {
+    background-color: rgba(61, 126, 193, .8)
+}
+#navigation .navTabs,
+.breadcrumb,
+.uix_breadCrumb_toggleList li.toggleList_item {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .2) 0, rgba(255, 255, 255, 0) 100%) #2096E1
+}
+.pageWidth {
+    min-width: 940px;
+    width: 976px;
+    max-width: 976px
+}
+.messageList .message {
+    background-color: #fff
+}
+.messageUserBlock {
+    background: url(http://bukkit.org/styles/flexile/xenforo/gradients/tab-selected-light.png) bottom repeat-x #d7edfc;
+    border-radius: 5px
+}
+.messageUserBlock div.avatarHolder {
+    background-color: #f0f7fc
+}
+.messageUserBlock .arrow span {
+    border-left-color: #f0f7fc
+}
+.messageUserBlock h3.userText {
+    background-color: rgba(0, 0, 0, 0)
+}
+.messageUserBlock .extraUserInfo {
+    background-color: #f0f7fc
+}
+::selection {
+    background-color: #328EFE
+}
+.message .likesSummary,
+.secondaryContent {
+    background: url(http://bukkit.org/styles/flexile/xenforo/gradients/category-23px-light.png) top repeat-x #f0f7fc
+}
+.avatar .img,
+.avatar img,
+.avatarCropper {
+    border: 1px solid #a5cae4;
+    border-radius: 4px
+}
+.message .likesSummary {
+    border: 1px solid #d7edfc
+}
+.secondaryContent {
+    border-bottom: 1px solid #d7edfc
+}
+#userBar .navTabs .navTab.Popup.PopupContainerControl.PopupOpen,
+#userBar .navTabs .navTab.selected.PopupOpen .navLink,
+.button.primary,
+.heading,
+.node .categoryForumNodeInfo.unread .nodeIcon,
+.node .forumNodeInfo.unread .nodeIcon,
+.xenForm .formHeader {
+    background-color: #2096E1
+}
+.Menu {
+    border-top: 2px solid #2096E1
+}
+.profilePage .mast .section.infoBlock h3,
+.resourceListSidebar h3,
+.sidebar .section .primaryContent h3,
+.sidebar .section .secondaryContent h3 {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .2) 0, rgba(255, 255, 255, 0) 100%) #2096E1
+}
+#QuickSearch .primaryControls .uix_icon,
+.navTabs .navTab.Popup.PopupContainerControl.PopupOpen,
+.navTabs .navTab.selected.PopupOpen .navLink {
+    background-color: #84d0ff
+}
+.footer .pageContent {
+    border-top: 3px solid #2096E1
+}
+.navTabs .navTab.PopupClosed.selected .navLink,
+.navTabs .navTab.selected .navLink {
+    color: #336ca5
+}
+.discussionListItems .unread .title a,
+.primaryContent a,
+.sidebar .visitorPanel .username {
+    color: #1061b3
+}
+.button {
+    background-color: #E0F1FC
+}
+.button:hover,
+.buttonProxy:hover .button,
+.button[href]:hover {
+    background-color: #FFFFD2;
+    color: #535353
+}
+.discussionListItems .unread .lastPostInfo .username,
+.footer .choosers a:hover,
+.footer a,
+.footer a:visited,
+.footerLinks a[href]:hover,
+.navTabs .navTab.selected .navLink:hover,
+.navTabs .navTab.selected .tabLinks a:focus,
+.navTabs .navTab.selected .tabLinks a:hover,
+a:link,
+a:visited {
+    color: #336ca5
+}
+a.callToAction:hover span {
+    background-color: #2C9BE2
+}
+.jumbotron {
+    background-color: #62bef7
+}
+.navbar-inverse {
+    background-color: #2096E1
+}
+.col-md-2 img {
+    filter: hue-rotate(153deg);
+    -webkit-filter: hue-rotate(153deg);
+    -moz-filter: hue-rotate(153deg);
+    -o-filter: hue-rotate(153deg);
+    -ms-filter: hue-rotate(153deg)
+}
+.box {
+    background-color: #fff
+}
+.box-icon,
+.btn-warning,
+.btn-warning.active,
+.btn-warning.focus,
+.btn-warning:active,
+.btn-warning:focus,
+.btn-warning:hover,
+.gadget-colors .color3>a,
+.gadget.color3 .dashboard-item-header,
+.open>.dropdown-toggle.btn-warning {
+    background-color: #2096E1
+}
+.btn-warning {
+    background-image: radial-gradient(circle, #62bef7 80%, #2096E1 81%)
+}
+.gadget-colors .color1>a,
+.gadget.color1 .dashboard-item-header {
+    background-color: #62bef7
+}
+.aui-header {
+    background: #2096E1;
+    border-bottom-color: #2096E1
+}
+.aui-dropdown2.aui-style-default .active {
+    background-color: #62bef7
+}
+.aui-header .aui-button.aui-button-primary.aui-style {
+    background-color: #98d6f9;
+    background-image: linear-gradient(to bottom, #98d6f9, #62bef7)
+}
