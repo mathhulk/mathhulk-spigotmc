@@ -23,9 +23,7 @@
   ],
   "background": {
     "scripts": [
-      "assets/js/jquery.min.js",
-      "assets/js/mathhulk.js",
-      "assets/js/alerts.js"
+      "assets/js/mathhulk.js"
     ],
     "persistent": false
   },

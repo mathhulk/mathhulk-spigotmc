@@ -22,7 +22,7 @@ body {
     background-color: #fff
 }
 .messageUserBlock {
-    background: url(http://bukkit.org/styles/flexile/xenforo/gradients/tab-selected-light.png) bottom repeat-x #d7edfc;
+    background: url(https://bukkit.org/styles/flexile/xenforo/gradients/tab-selected-light.png) bottom repeat-x #d7edfc;
     border-radius: 5px
 }
 .messageUserBlock div.avatarHolder {
@@ -42,7 +42,7 @@ body {
 }
 .message .likesSummary,
 .secondaryContent {
-    background: url(http://bukkit.org/styles/flexile/xenforo/gradients/category-23px-light.png) top repeat-x #f0f7fc
+    background: url(https://bukkit.org/styles/flexile/xenforo/gradients/category-23px-light.png) top repeat-x #f0f7fc
 }
 .avatar .img,
 .avatar img,

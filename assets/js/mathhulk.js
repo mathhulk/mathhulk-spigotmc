@@ -32,22 +32,6 @@ function replaceAllTheThings() {
     }
 }
 
-if (document.getElementById('XenForo'))
-{
-    if (document.getElementById('XenForo').classList.contains('LoggedIn'))
-    {
-        chrome.runtime.sendMessage({'url': document.getElementsByTagName('base')[0].href, 'title': document.getElementsByClassName('boardTitle')[0].innerText, 'image': document.querySelector('link[rel="apple-touch-icon"]').href}, function(response) {
-            console.log(response);
-        });
-    }
-    if (document.getElementsByClassName('sidebar').length > 0)
-    {
-        var sidebar = document.getElementsByClassName('sidebar')[0];
-        chrome.runtime.sendMessage({'fetch': 'ad', 'url': document.getElementsByTagName('base')[0].href}, function(response) {
-        });
-    }
-}
-
 function httpGet(theUrl) {
   var xmlHttp = null;
 
